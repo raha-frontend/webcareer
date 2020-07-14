@@ -28,8 +28,9 @@ body {
 }
 
 .page__cell {
-    max-width: 1180px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {
@@ -56,7 +57,11 @@ body {
     float: left;
 }
 
-.header-contact {
+.logo__picture {
+    max-width: 100%;
+}
+
+.header__contact {
     float: right;
     text-align: right;
 }
@@ -246,36 +251,36 @@ body {
     padding: 1.2rem 0;
 }
 
-/*.btn-nav {*/
-/*    border: 0;*/
-/*    background: none;*/
-/*    padding: 0.7rem;*/
-/*    cursor: pointer;*/
-/*    border-radius: 0.2rem;*/
-/*}*/
+.btn-nav {
+    border: 0;
+    background: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
 
-/*.btn-nav:hover {*/
-/*    background: #dadada;*/
-/*}*/
+.btn-nav:hover {
+    background: #dadada;
+}
 
-/*.btn-nav__line {*/
-/*    display: block;*/
-/*    width: 20px;*/
-/*    height: 2px;*/
-/*    border-radius: 1px;*/
-/*    background: #000;*/
-/*    margin-bottom: 3px;*/
-/*}*/
+.btn-nav__line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 1px;
+    background: #000;
+    margin-bottom: 3px;
+}
 
-/*.btn-nav__line:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
+.btn-nav__line:last-child {
+    margin-bottom: 0;
+}
 
-/*.nav__btn {*/
-/*    text-align: right;*/
-/*    margin: 0.7rem 0;*/
-/*    display: none;*/
-/*}*/
+.nav__btn {
+    text-align: right;
+    margin: 0.7rem 0;
+    display: none;
+}
 
 
 
